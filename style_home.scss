@@ -1,0 +1,38 @@
+$margin:50px;
+
+%txt-al {
+    text-align:center
+}
+
+h1 {
+    text-align:center
+}
+body {
+    background-image: url(img_flwr.gif), url(https://img4.goodfon.ru/wallpaper/big/e/70/marshmallows-pink-marshmellou-rozovyi-fon.jpg);
+    background-size:cover;
+    margin-left:$margin;
+    margin-right:$margin;
+    font-size:18px
+}
+table {
+    border-collapse: collapse;
+    background-color:#00ffd4;
+    td{
+        @extend %txt-al
+    }
+}
+table, td {
+    border: 2px solid black;
+}
+
+#panel{
+    @extend %txt-al
+}
+#panel{
+    background-color:#00ffd4
+}
+@media (max-width: 1200px) {
+    #t2, .panel{
+        display:none
+    }
+}

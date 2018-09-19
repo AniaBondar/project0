@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Рецепти</title>
+        <meta charset="utf-8">
+        <link rel="icon" href="https://www.shareicon.net/download/2017/04/22/885118_food_512x512.png">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <style>
+            h1 {
+                text-align:center
+            }
+            body {
+                background-image: url(img_flwr.gif), url(https://img4.goodfon.ru/wallpaper/big/e/70/marshmallows-pink-marshmellou-rozovyi-fon.jpg);
+                background-size:cover;
+                margin-left:50px;
+                margin-right:50px;
+                font-size:18px
+            }
+            table {
+                border-collapse: collapse;
+                background-color:#00ffd4
+            }
+
+            table, td {
+                border: 2px solid black;
+            }
+
+            td, #panel{
+                text-align:center
+            }
+            #panel{
+                background-color:#00ffd4
+            }
+            @media (max-width: 499px) {
+                #t2, .panel{
+                    display:none
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Рецепти</h1>
+        <div class="container">
+            <div class="row">
+                <table class="col-sm-4" id="t1">
+                    <tr>
+                        <td>1.</td>
+                        <td>Кекси</td>
+                        <td><a href="keks.html">Кекси з родзинками</a> </td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>Желе</td>
+                        <td><a href="zhele.html">Сирне желе</a></td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>Безе</td>
+                        <td><a href="beze.html">Мигдальне безе</a></td>
+                    </tr>
+                </table>
+                <div class="col-sm-4">
+                    <div class="panel" id="panel">&larr; Смаколики &rarr;</div>
+                </div>
+                <table class="col-sm-4" id="t2">
+                    <tr>
+                        <td>1.</td>
+                        <td>Кекси</td>
+                        <td><a href="keks.html">Кекси з родзинками</a> </td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>Желе</td>
+                        <td><a href="zhele.html">Сирне желе</a></td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>Безе</td>
+                        <td><a href="beze.html">Мигдальне безе</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>

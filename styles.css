@@ -1,0 +1,49 @@
+div p {
+    margin: 12px;
+}
+h1 {
+    margin:30px;
+    font-family:courier;
+    font-size:48px
+}
+body {
+    background-image: url(img_flwr.gif), url(https://img4.goodfon.ru/wallpaper/big/e/70/marshmallows-pink-marshmellou-rozovyi-fon.jpg);
+    background-size:cover;
+    margin-left:50px;
+    margin-right:50px
+}
+#recepy {
+    margin-top:150px;
+
+}
+h3 {
+    margin-left:40px;
+    margin-top:60px
+}
+img {
+    position:absolute;
+    height:300px;
+    top:130px;
+    left:900px;
+    border-radius:20px
+}
+#back{
+    width:25%
+}
+#home{
+    width:50%
+}
+#forward{
+    text-align:right;
+    width:25%
+}
+#bottom {
+    padding-top:30px;
+    padding-bottom:30px
+}
+#back, #home, #forward {
+    float:left
+}
+.center{
+    text-align:center
+}
